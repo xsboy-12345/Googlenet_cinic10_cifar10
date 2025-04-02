@@ -110,15 +110,6 @@ Then open [http://localhost:6006](http://localhost:6006) in your browser.
 
 ---
 
-## 📊 Sample Results (for reference)
-
-| Method          | Pretrained | Test Accuracy | Notes                  |
-|-----------------|------------|---------------|------------------------|
-| Pretrained      | CINIC-10   | ~74%          | Used as fine-tune base |
-| Fine-tuned      | ✅ Yes      | **82%+**      | Fast convergence       |
-| From Scratch    | ❌ No       | ~78% (±1%)    | Slower to converge     |
-
----
 
 ## 🔮 Future Work
 
