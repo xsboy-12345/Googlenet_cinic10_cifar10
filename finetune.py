@@ -14,7 +14,7 @@ testloader = get_cifar10_loader(train=False)
 device = torch.device(device)
 
 model = GoogLeNet(num_classes=num_classes)
-model.load_state_dict(torch.load(f"{model_path}/googlenet_cinic10.pth"))
+model.load_state_dict(torch.load(f"{model_path}/googlenet_cinic10_best.pth"))
 model = model.to(device)
 
 for name, param in model.named_parameters():
